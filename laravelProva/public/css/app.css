@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  width: 100vw;
+}
+
+* body .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: white;
+}
+
+.container .header {
+  background: purple;
+  width: 100%;
+  height: 10vh;
+}
+
+.container .content {
+  background: grey;
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+}
+
+.container .content .box-numeri {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.container .content .box-numeri .numero {
+  background: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+.container .footer {
+  background: black;
+  width: 100%;
+  height: 10vh;
+}
+
